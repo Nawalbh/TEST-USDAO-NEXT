@@ -74,9 +74,9 @@
 
  span {
   color: #f86411;
-  background: -webkit-linear-gradient(to left,
-    #FEBC18,
-    #FF3934);
+  background: linear-gradient(270deg, #febc18, #ff3934);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
  }
 }
 

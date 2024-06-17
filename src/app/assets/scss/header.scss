@@ -1,0 +1,93 @@
+.header-wrap{
+  padding-left: 15px;
+}
+.headSection {
+ display: flex;
+ justify-content: space-between;
+}
+
+.headButtonSection {
+ display: flex;
+ justify-content: space-between;
+}
+
+.ConnectApp {
+ padding: 0px 12px 0px 12px;
+
+ .ConnectBtn {
+  padding: 4px 20px 4px 20px;
+  background-image: linear-gradient(to left, #FEBC18, #FF3934);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+ }
+
+}
+
+.LinkApp {
+ padding: 0px 12px 0px 12px;
+
+ .AppButton {
+  padding: 10px 34px 10px 34px;
+  background: linear-gradient(to left, #FEBC18,
+    #FF3934);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+
+  p {
+   padding: 1px;
+   margin: 0px;
+   font-weight: 800;
+  }
+ }
+
+}
+
+.NotificationSec {
+ display: flex;
+
+ .bell-space {
+  // padding-left: 10px;
+  // padding-right: 10px;
+
+  .bell {
+   justify-content: center;
+  }
+
+  .bellIcon {
+   // justify-content: center;
+   width: 50px;
+   height: auto;
+   color: #fff;
+   font-size: 28px;
+  }
+ }
+}
+
+
+.notification {
+ // z-index: 10;
+ background-color: #1f1c2b;
+ margin-top: 4rem;
+ margin-left: 50%;
+ width: 37rem;
+ position: absolute;
+
+ @media (max-width: 720px) {
+  margin-left: 26%;
+  width: 22rem;
+ }
+
+ @media (max-width: 414px) {
+  margin-left: 26%;
+  width: 22rem;
+ }
+
+ @media (max-width: 400px) {
+  margin-left: 8%;
+  width: 17rem;
+ }
+}

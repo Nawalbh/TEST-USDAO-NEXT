@@ -1,0 +1,212 @@
+.footer-wrap {
+    padding: 0px 74px;
+    margin-top: 6rem;
+
+
+    @media screen and (max-width:1300px) {
+        padding: 0px 60px;
+    }
+
+    @media screen and (max-width:1200px) {
+        padding: 0px 40px;
+    }
+
+    @media screen and (max-width:940px) {
+        padding: 0px 20px;
+    }
+
+    @media screen and (max-width:440px) {
+        padding: 0px 10px;
+    }
+}
+
+.Hr {
+    color: #574D5B;
+}
+
+.footerHeading {
+    text-align: center;
+
+    h1 {
+        color: #fff;
+    }
+
+    span {
+        color: #feaa1c;
+    }
+
+    .enterEmail {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 0px 100px 0px 100px;
+
+        @media screen and (max-width:300px) {
+            padding: 0px 0px 0px 0px !important;
+        }
+
+        .emailDiv {
+            width: 100%;
+            border-bottom: 1px solid #574D5B;
+            padding-bottom: 16px;
+        }
+
+        .btnDiv {
+            width: 100%;
+            border-bottom: 1px solid #574D5B;
+            margin-left: 4px;
+
+            p {
+                color: #feaa1c;
+            }
+        }
+    }
+
+    .inputemail {
+        // background-color: #fff;
+        width: 100%;
+    }
+
+    .btnSubmit {
+        color: #fff;
+        padding: 0px;
+        border-bottom: 1px solid #574D5B;
+        width: 100%;
+        border-radius: none;
+    }
+
+    .btnSubmit:hover {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-right-width: 0;
+        border-left-width: 0;
+        border-top-width: 0;
+    }
+}
+
+.footerSec {
+    .footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerDecs {
+        display: flex;
+        margin-top: 1.2rem;
+        justify-content: space-around;
+        padding: 0px 20px 0px 20px;
+
+        p {
+            color: #fff;
+        }
+    }
+
+    .footerLinkHeader {
+        p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 14px;
+
+        }
+    }
+
+    .footerSection {
+        .footerDetails {
+            cursor: pointer;
+
+            p {
+                color: #fff;
+
+                @media screen and (max-width:600px) {
+                    font-size: 9.6px;
+                }
+            }
+        }
+        .footerDetailsLast{
+            cursor: pointer;
+            
+                p {
+                    color: #fff;
+                    text-decoration: underline;
+                    @media screen and (max-width:600px) {
+                        font-size: 9.6px;
+                    }
+                }
+        }
+    }
+}
+
+.rowCheckFooter {
+
+    @media (max-width:600px) {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+.footerOpt {
+    // @media (max-width:2830px) {
+    //     width: 16% !important;
+    // }
+    // @media (max-width:1830px) {
+    //     width: 16% !important;
+    // }
+    // @media (max-width:830px) {
+    //     width: 10% !important;
+    // }
+    @media (max-width:790px) {
+        width: 20% !important;
+    }
+    @media (max-width:600px) {
+        width: 50% !important;
+    }
+    @media (max-width:376px) {
+        width: 33% !important;
+    }
+}
+
+.partOfFooterOne {
+    @media (max-width: 2890px) {
+        width: 30% !important;
+    }
+    @media (max-width: 790px) {
+        width: 100% !important;
+    }
+
+    @media (max-width: 730px) {
+        width: 100% !important;
+    }
+
+    @media (max-width: 500px) {
+        width: 100% !important;
+    }
+}
+
+.partOfFooterTwo {
+    @media (max-width: 2890px) {
+        width: 70% !important;
+    }
+    @media (max-width: 790px) {
+        width: 100% !important;
+    }
+
+    @media (max-width: 730px) {
+        width: 100% !important;
+    }
+
+    @media (max-width: 500px) {
+        width: 100% !important;
+    }
+}
+
+.footerCopyRight{
+    .CopyRightHr{
+        color: #FFFFFF;
+    }
+   .footerCopyRightext{
+    display: flex;
+    justify-content: center;
+    p{
+        color: #fff;
+    }
+   }
+}

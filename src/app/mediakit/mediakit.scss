@@ -1,0 +1,274 @@
+.MediaOuterBody{
+  padding: 2rem;
+}
+
+.MediaBody {
+ padding: 0px 200px;
+ margin-top: 6rem;
+
+ @media screen and (max-width:1300px) {
+  padding: 0px 160px;
+ }
+
+ @media screen and (max-width:1200px) {
+  padding: 0px 140px;
+ }
+
+ @media screen and (max-width:940px) {
+  padding: 0px 90px;
+ }
+
+ @media screen and (max-width:940px), screen and (max-height: 1030px) {
+  padding: 0px 10px;
+ }
+
+ @media screen and (max-width:440px) {
+  padding: 0px 10px;
+ }
+
+ .Resources {
+  justify-content: center;
+
+  .mediaImage {
+   display: flex;
+   justify-content: center;
+
+   .mediaimg {
+    max-width: 84%;
+   }
+  }
+ }
+
+ .mediaBtn {
+   button {
+     padding: 20px;
+     border-radius: 25px;
+     color: #fff;
+     background: linear-gradient(to left, #FEBC18,
+         #FF3934);
+   }
+
+   @media screen and (max-width:420px) {
+     display: flex;
+     justify-content: center;
+   }
+ }
+
+
+ .resourceHeading {
+  span {
+   color: #feaa1c;
+  }
+
+  h1 {
+   color: #fff;
+  }
+
+ }
+
+ .desc {
+  p {
+   color: #fff;
+  }
+ }
+
+ .usdaoMedia {
+  margin-top: 6rem;
+  text-align: center;
+
+  .usdaoHead {
+   h1 {
+    color: #fff;
+   }
+
+   span {
+    color: #feaa1c;
+   }
+
+   p {
+    color: #fff;
+   }
+  }
+
+  .OuterUsdaoBox {
+   background: #1D1C23;
+   padding: 15px 18px 0px 18px;
+   border-top-left-radius: 5%;
+   border-top-right-radius: 5%;
+   margin-bottom: 2rem;
+
+   .usdaoImgBorder {
+    border-bottom: 2px solid black;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+
+
+    .usdaoImg {
+     height: 30px;
+     width: auto;
+    }
+
+    .daoImg {
+     height: 30px;
+     width: 30px;
+    }
+   }
+
+   .usdaologdesc {
+    margin-top: 12px;
+
+    h5 {
+     color: #fff;
+     font-size: 16px;
+     font-weight: 600;
+    }
+
+    p {
+     color: #fff;
+     font-size: 12px;
+    }
+   }
+
+   .chooseimg {
+    p {
+     font-weight: 900;
+     color: #F83811;
+    }
+   }
+  }
+ }
+
+ .ourLogo {
+  margin-top: 4rem;
+
+  .ourLogoHead {
+   text-align: center;
+
+   h1 {
+    color: #fff;
+   }
+
+   span {
+    color: #feaa1c;
+   }
+
+   p {
+    color: #fff;
+   }
+  }
+
+  .assetsMediaBody{
+   .OuterUsdaoBox {
+     background: #1D1C23;
+     padding: 15px 18px 0px 18px;
+     border-top-left-radius: 5%;
+     border-top-right-radius: 5%;
+     margin-bottom: 2rem;
+    text-align: center;
+     .usdaoImgBorder {
+      border-bottom: 2px solid black;
+      padding-bottom: 5%;
+      display: flex;
+      justify-content: center;
+   
+   
+      .usdaoImg {
+       height: 30px;
+       width: auto;
+      }
+   
+      .daoImg {
+       height: 30px;
+       width: 30px;
+      }
+     }
+   
+     .usdaologdesc {
+      margin-top: 12px;
+      
+      h5 {
+       color: #fff;
+       font-size: 16px;
+       font-weight: 600;
+      }
+   
+      p {
+       color: #fff;
+       font-size: 12px;
+      }
+     }
+   
+     .chooseimg {
+      p {
+       font-weight: 900;
+       color: #F83811;
+      }
+     }
+    }
+  }
+ }
+
+ .LogoDont{
+  margin-top: 5rem;
+  .LogoDontHead{
+   text-align: center;
+   h1{
+    color: #fff;
+   }
+   span{
+    color: #feaa1c;
+   }
+
+   p{
+    color: #fff;
+   }
+  }
+      .OuterUsdaoBox {
+       background: #1D1C23;
+       padding: 15px 18px 0px 18px;
+       border-top-left-radius: 5%;
+       border-top-right-radius: 5%;
+       margin-bottom: 2rem;
+       .usdaoImgBorder {
+        border-bottom: 2px solid black;
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: center;
+   
+   
+        .usdaoImg {
+         height: 30px;
+         width: auto;
+        }
+   
+        .daoImg {
+         height: 30px;
+         width: 30px;
+        }
+       }
+   
+       .usdaologdesc {
+        margin-top: 12px;
+        text-align: center;
+        h5 {
+         color: #fff;
+         font-size: 16px;
+         font-weight: 600;
+        }
+   
+        p {
+         color: #fff;
+         font-size: 12px;
+        }
+       }
+   
+       .chooseimg {
+        p {
+         font-weight: 900;
+         color: #F83811;
+        }
+       }
+      }
+ }
+}

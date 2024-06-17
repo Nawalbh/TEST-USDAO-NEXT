@@ -1,0 +1,245 @@
+:root {
+   --card-background: #1F1C2B;
+   --title-primary: #fff;
+   --card-body-name: #84849D;
+   --input-field-display: #6b687f;
+   --confirm-button-color: #E85F14;
+   --deposit-wrap-color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-theme {
+   --card-background: #1F1C2B;
+   --title-primary: #fff;
+   --card-body-name: #84849D;
+   --input-field-display: #2D2A3D;
+   --confirm-button-color: #E85F14;
+   --deposit-wrap-color: rgba(255, 255, 255, 0.8);
+}
+
+.light-theme {
+   --card-background: #fff;
+   --title-primary: #1E1E1E;
+   --card-body-name: #848484;
+   --input-field-display: #F8F9FF;
+   --confirm-button-color: #0E7EFE;
+   --deposit-wrap-color: #9EA0A4;
+}
+
+.tab-box {
+   &-wrap {
+      padding: 15px;
+      margin-bottom: 20px;
+      background: var(--input-field-display);
+      border-radius: 15px;
+      width: 100%;
+   }
+
+   &-info {
+      margin-bottom: 10px;
+
+      p {
+         font-size: 13px;
+         line-height: 15px;
+         color: var(--title-primary);
+
+         svg {
+            color: rgba(255, 255, 255, 0.8);
+         }
+      }
+   }
+}
+
+.wbtcimg {
+   width: 60px;
+   height: 22px;
+   // object-fit: cover;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.claim-btn {
+   button {
+      color: #FFFFFF;
+   }
+
+   .btn:hover {
+      color: #FFFFFF;
+   }
+}
+
+input {
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFF;
+   border: none;
+   box-shadow: none;
+   background: none;
+   padding: none;
+   width: 60%;
+
+   @media (max-width: 600px) {
+      font-size: 12px;
+      line-height: 16px;
+      width: 100%;
+      margin-bottom: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 5px;
+      border-radius: 5px;
+   }
+
+   @media (max-width: 390px) {
+      font-size: 12px;
+      line-height: 16px;
+      width: 100%;
+      margin-bottom: 0px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 5px;
+      border-radius: 5px;
+   }
+
+
+   &:focus,
+   &:active,
+   &:focus-visible {
+      box-shadow: none;
+      outline: none;
+      border: none;
+   }
+
+   &::placeholder {
+      color: #CFCFCF;
+   }
+}
+
+.disable-withdraw {
+   pointer-events: none;
+   opacity: 0.5;
+}
+
+.value-status {
+   cursor: pointer;
+   padding: 4px 10px;
+   border: 1px solid var(--title-primary);
+   border-radius: 5px;
+   margin-right: 8px;
+   margin-left: 8px;
+
+   p {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 13px;
+      line-height: 15px;
+      color: var(--title-primary);
+   }
+}
+
+.deposite-detail-wrap {
+   font-size: 14px;
+   line-height: 17px;
+   color: var(--deposit-wrap-color);
+   margin-bottom: 10px;
+
+   @media (max-width: 600px) {
+      flex-direction: column;
+      margin-bottom: 15px;
+      text-align: left;
+   }
+
+   svg {
+      color: rgba(255, 255, 255, 0.8);
+   }
+
+   &:last-child {
+      margin-bottom: 0;
+   }
+}
+
+.note-content {
+   font-size: 14px;
+   line-height: 17px;
+   font-weight: 300;
+   color: rgba(255, 255, 255, 0.8);
+
+   span {
+      font-weight: 500;
+   }
+}
+
+.tab-box-values {
+   @media (max-width: 600px) {
+      flex-direction: column;
+
+      .d-flex {
+         width: 100%;
+         justify-content: space-between;
+      }
+   }
+
+   .inputNumber {
+      background: #1d1c2363 !important;
+      width: 82% !important;
+      border-radius: 5px !important;
+      padding: 5px !important;
+   }
+}
+
+.btn-gradient {
+   width: 100%;
+   padding: 20px 25px;
+   border: 2px solid var(--confirm-button-color);
+   background: none;
+   border-radius: 25px;
+   display: flex;
+   align-items: center;
+   margin-right: 15px;
+   transition: all .3s ease;
+   justify-content: center;
+}
+
+.btn-gradientdisabled {
+   width: 100%;
+   padding: 20px 25px;
+   border: 2px solid #A1A1A1;
+   background: none;
+   border-radius: 25px;
+   display: flex;
+   align-items: center;
+   margin-right: 15px;
+   transition: all .3s ease;
+   justify-content: center;
+}
+
+.btn-gradient:hover {
+   background: var(--confirm-button-color);
+   color: #fff;
+   border: none;
+}
+
+.tooltipIcon {
+   color: var(--title-primary) !important;
+}
+
+.dashboard-card {
+   padding: 18px;
+}
+
+.menu-link {
+   margin-left: 16px;
+   margin-right: 16px;
+   color: var(--confirm-button-color);
+
+   @media (max-width: 600px) {
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+
+   &.btn {
+      margin-right: 0;
+   }
+}
+
+.maxBtn {
+   @media (max-width: 600px) {
+      margin-top: 1.5rem;
+   }
+}
